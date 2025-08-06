@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+    padding: 5px; /* Reduced padding from 10px to 5px */
+}
+
+.calculator {
+    background: black;
+    border-radius: 0;
+    width: 100%;
+    max-width: 390px;
+    padding: 15px;
+}
+
+.display {
+    height: 150px;  /* Changed from 200px to 150px */
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 0 20px 15px 20px;  /* Reduced bottom padding from 20px to 15px */
+    margin-bottom: 15px;  /* Reduced from 20px to 15px */
+}
+
+.display-text {
+    color: #fff;
+    font-size: 60px;  /* Changed from 80px to 60px */
+    font-weight: 200;
+    line-height: 1;
+    text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100%;
+}
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+
+
+.button {
+    border: none;
+    border-radius: 50%;
+    height: 70px;  /* Changed from 80px to 70px */
+    width: 70px;   /* Changed from 80px to 70px */
+    font-size: 30px;  /* Changed from 36px to 30px */
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.1s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-family: inherit;
+}
+
+.button {
+    background: #333;
+    color: #fff;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.button:active {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.2);
+}
+
+
+.button.function {
+    background: #a6a6a6;
+    color: #000;
+    font-weight: 500;
+}
+
+
+.button.operator {
+    background: #ff9f0a;
+    color: #fff;
+    font-weight: 400;
+}
+
+.button.operator.active {
+    background: #fff;
+    color: #ff9f0a;
+}
+
+.button.zero {
+    grid-column: span 2;
+    border-radius: 35px;  /* Changed from 40px to 35px to match smaller buttons */
+    width: auto;
+    justify-content: flex-start;
+    padding-left: 25px;  /* Reduced from 30px to 25px */
+}
+
+
+@media (max-width: 420px) {
+    .calculator { padding: 10px; }
+    .display { height: 150px; padding: 0 10px 10px 10px; margin-bottom: 10px; }
+    .display-text { font-size: 60px; }
+    .button { height: 70px; width: 70px; font-size: 30px; }
+    .button-grid { gap: 8px; }
+}
+
+@media (max-width: 350px) {
+    .display-text { font-size: 50px; }
+    .button { height: 60px; width: 60px; font-size: 24px; }
+}
