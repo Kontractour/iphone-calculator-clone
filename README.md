@@ -45,7 +45,7 @@ Godswill Okereke
 
 Frontend Developer | Content Creator | Learning Cybersecurity
 
-🔗 GitHub: @Kontractour
+🔗 GitHub: [@Kontractour](https://github.com/Kontractour)
 
 ---
 
