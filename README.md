@@ -1,85 +1,64 @@
+# 📱 iPhone Calculator Clone
 
-📱 iPhone Calculator Clone – JavaScript Calculator Project
-A responsive iPhone-style calculator built entirely with HTML, CSS, and Vanilla JavaScript.
-This beginner-friendly yet polished JavaScript Calculator Project replicates the look and feel of the Apple iOS calculator, making it perfect for learning frontend development and showcasing UI/UX skills.
+A responsive and visually accurate clone of the iPhone calculator built with **HTML**, **CSS**, and **JavaScript**.  
+This project replicates the **look, feel, and functionality** of the native iOS calculator, showcasing my ability to recreate real-world interfaces and implement precise JavaScript logic.
 
-🚀 Live Demo
-🔗 Try the iPhone Calculator Clone
+[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-Click%20Here-brightgreen?style=for-the-badge)](https://kontractour.github.io/iphone-calculator-clone)
 
-📸 Screenshot
+[![iPhone Calculator Clone Screenshot](./screenshot.png)](https://kontractour.github.io/iphone-calculator-clone)
 
+---
 
-✨ Key Features
-📱 iPhone-like Design – Pixel-perfect replica of the iOS calculator.
+## ✨ Features
 
-➕ Basic Math Operations – Addition, subtraction, multiplication, division.
+- ✅ Real-time arithmetic operations (addition, subtraction, multiplication, division, percentage, and more)  
+- ✅ Smooth support for both mouse clicks and keyboard input  
+- ✅ Clean, minimalistic, iOS-inspired design  
+- ✅ Responsive layout that works seamlessly across all screen sizes  
+- ✅ Visual feedback with highlight effects on active buttons  
 
-🪄 Extra Functions – Percentage calculation, sign toggle (+/-), and decimal input.
+---
 
-⌨️ Keyboard Support – Operate with mouse or keyboard.
+## 🧰 Technologies Used
 
-🔄 Clear & Reset – Full reset and backspace functionality.
+- **HTML5** — Semantic structure and layout  
+- **CSS3** — Styling, responsiveness, and iOS-inspired design  
+- **Vanilla JavaScript** — Calculator logic, event handling, and UI interactivity  
 
-📏 Responsive Layout – Fully functional on mobile, tablet, and desktop.
+---
 
-🛠️ Technologies Used
-HTML5 – Structure and semantic markup.
+## 📂 How to Use
 
-CSS3 – Styling with Flexbox, Grid, and smooth animations.
+Clone the project and open it locally in your browser:
 
-Vanilla JavaScript – Core logic, DOM manipulation, and event handling.
-
-📂 Folder Structure
-plaintext
-Copy
-Edit
-📦 iphone-calculator-clone
- ┣ 📜 index.html        # Main HTML layout
- ┣ 📜 style.css         # Calculator styling
- ┣ 📜 script.js         # Calculator logic and events
- ┗ 📜 screenshot.png    # Project preview image
-📖 How to Use This Calculator
-Mouse: Click the on-screen buttons.
-
-Keyboard: Type numbers and operators (+, -, *, /) directly.
-
-Press C to clear, Backspace to delete the last entry.
-
-Press = or Enter to calculate the result.
-
-🎯 Why This Project Matters
-This project is great for:
-
-Practicing JavaScript DOM manipulation.
-
-Learning event handling in vanilla JS.
-
-Understanding CSS layout techniques like Flexbox and Grid.
-
-Building portfolio-ready frontend projects.
-
-Replicating real-world UI design.
-
-🧑‍💻 Getting Started
-Run it locally in 3 quick steps:
-
-bash
-Copy
-Edit
-# 1. Clone this repository
+```bash
 git clone https://github.com/Kontractour/iphone-calculator-clone.git
-
-# 2. Move into the folder
 cd iphone-calculator-clone
+```
+Then, open index.html in your preferred browser.
 
-# 3. Open index.html in your browser
-📜 License
-This project is licensed under the MIT License, meaning it’s free to use, modify, and distribute.
+---
 
-🙌 Credits
-Inspired by the Apple iOS Calculator.
+## 🧑‍💻 About Me
 
-UI references from Apple’s design system.
+Godswill Okereke
 
-⭐ If you find this project helpful, give it a star on GitHub!
-📌 Follow my profile for more JavaScript and frontend projects: Kontractour
+Frontend Developer | Content Creator | Learning Cybersecurity
+
+🔗 GitHub: @Kontractour
+
+---
+
+## 📄 License
+
+This project is open-source under the MIT License.
+
+You’re free to use, modify, and share it — just provide proper credit.
+
+---
+
+## 📝 Acknowledgment
+
+Inspired by the original Apple iOS Calculator interface.
+
+Built entirely for educational purposes and to strengthen my frontend portfolio.
