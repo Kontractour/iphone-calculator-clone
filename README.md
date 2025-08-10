@@ -1,7 +1,7 @@
-# 📱 iPhone Calculator Clone
+# 📱 iPhone Calculator Clone (HTML, CSS & JavaScript)
 
-A responsive and visually accurate clone of the iPhone calculator built with **HTML**, **CSS**, and **JavaScript**.  
-This project replicates the **look, feel, and functionality** of the native iOS calculator, showcasing my ability to recreate real-world interfaces and implement precise JavaScript logic.
+A responsive, pixel-perfect iPhone calculator clone built using HTML5, CSS3, and Vanilla JavaScript.
+This project accurately replicates the native iOS calculator in design, layout, and functionality, and also showcases my ability to recreate real-world interfaces and implement precise JavaScript logic.
 
 [![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-Click%20Here-brightgreen?style=for-the-badge)](https://kontractour.github.io/iphone-calculator-clone)
 
@@ -43,7 +43,7 @@ Then, open index.html in your preferred browser.
 
 Godswill Okereke
 
-Frontend Developer | Content Creator | Learning Cybersecurity
+Frontend Developer | Content Creator | JavaScript Enthusiast 
 
 🔗 GitHub: [@Kontractour](https://github.com/Kontractour)
 
